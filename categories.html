@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Store - Your Best Marketplace</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="style/main.css" rel="stylesheet" />
+
+  
+  </head>
+
+  <body>
+
+
+      <!-- navbar button in mobile -->
+	 <!-- <nav class="navbar navbar-light bg-white border-top navbar-expand d-md-none d-lg-none d-xl-none fixed-bottom">
+		<ul class="navbar-nav nav-justified w-100">
+			<li class="nav-item">
+			<a href="#" class="nav-link">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+				<path d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"/>
+				<path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+				</svg>
+			</a>
+			</li>
+			<li class="nav-item">
+			<a href="#" class="nav-link">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+				<path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+				<path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+				</svg>
+			</a>
+			</li>
+			<li class="nav-item">
+			<a href="#" class="nav-link">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-plus-fill" viewBox="0 0 16 16">
+				<path fill-rule="evenodd" d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM8.5 8a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V12a.5.5 0 0 0 1 0v-1.5H10a.5.5 0 0 0 0-1H8.5V8z"/>
+				</svg>
+			</a>
+			</li>
+			<li class="nav-item">
+			<a href="#" class="nav-link">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+				<path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+				</svg>
+			</a>
+			</li>
+			<li class="nav-item">
+			<a href="#" class="nav-link">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+				<path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+				<path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+				<path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+				</svg>
+			</a>
+			</li>
+		</ul>
+  </nav> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light navbar-store fixed-top navbar-fixed-top" data-aos="fade-down">
+      <div class="container">
+       <a class="navbar-brand" href="index.html">Vegefresh</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="/index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a href="/categories.html" class="nav-link">Category</a>
+            </li>
+            <li class="nav-item">
+              <a href="/index.html" class="nav-link">Reward</a>
+            </li>
+            <li class="nav-item">
+              <a href="/register.html" class="nav-link">Sign up</a>
+            </li>
+            <li class="nav-item">
+              <a href="/login.html" class="btn btn-success nav-link px-4 text-white">Sign in</a>
+            </li>
+            
+          </ul>
+       </div>
+      </div>
+    </nav>
+
+	<!-- page-content -->
+	
+		
+    <div class="page-content page-shop">
+       <section class="hero">
+			<div class="hero-wrap hero-bread" style="background-image: url('images/bg_1.jpg'); height: 300px;"></div>
+		</section>
+
+		<section class="ftco-section mt-5">
+    	<div class="container">
+
+			<div class="row">
+				<div class="col-12 col-md-12 mt-4 mb-4 d-flex justify-content-center">
+						<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+							<li class="nav-item" role="presentation">
+								<a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">All</a>
+							</li>
+							<li class="nav-item" role="presentation">
+								<a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Vegetables</a>
+							</li>
+							<li class="nav-item" role="presentation">
+								<a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Fruits</a>
+							</li>
+							<li class="nav-item" role="presentation">
+								<a class="nav-link" id="pills-y-tab" data-toggle="pill" href="#pills-y" role="tab" aria-controls="pills-y" aria-selected="false">Juice</a>
+							</li>
+							<li class="nav-item" role="presentation">
+								<a class="nav-link" id="pills-z-tab" data-toggle="pill" href="#pills-z" role="tab" aria-controls="pills-z" aria-selected="false">Dried</a>
+							</li>
+						</ul>
+				</div>
+			</div>
+    		<div class="row d-flex justify-content-center">
+    			<div class="col-12 col-md-12 mb-4 text-center ">
+				<div class="tab-content" id="pills-tabContent">
+				<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+					<div class="row">
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="details.html" class="img-prod"><img class="img-fluid" src="images/product-1.jpg" >
+									<span class="status">30%</span>
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Bell Pepper</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span class="mr-2 price-dc">$120.00</span><span class="price-sale">$80.00</span></p>
+										</div>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+						<div class=" col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-2.jpg" >
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Strawberry</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span>$120.00</span></p>
+										</div>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-3.jpg" alt="Colorlib Template">
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Green Beans</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span>$120.00</span></p>
+										</div>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-4.jpg" >
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Purple Cabbage</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span>$120.00</span></p>
+										</div>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-5.jpg" >
+									<span class="status">30%</span>
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Tomatoe</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span class="mr-2 price-dc">$120.00</span><span class="price-sale">$80.00</span></p>
+										</div>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-6.jpg" >
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Brocolli</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span>$120.00</span></p>
+										</div>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-7.jpg" >
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Carrots</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span>$120.00</span></p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-8.jpg" >
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Fruit Juice</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span>$120.00</span></p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-9.jpg" >
+									<span class="status">30%</span>
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Onion</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span class="mr-2 price-dc">$120.00</span><span class="price-sale">$80.00</span></p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-10.jpg" >
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Apple</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span>$120.00</span></p>
+										</div>
+									</div>
+									
+								</div>
+							</div>`
+						</div>
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-11.jpg" >
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Garlic</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span>$120.00</span></p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-12.jpg" >
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Chilli</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span>$120.00</span></p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+					<div class="row">
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="details.html" class="img-prod"><img class="img-fluid" src="images/product-1.jpg" >
+									<span class="status">30%</span>
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Bell Pepper</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span class="mr-2 price-dc">$120.00</span><span class="price-sale">$80.00</span></p>
+										</div>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+						<div class=" col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-2.jpg" >
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Strawberry</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span>$120.00</span></p>
+										</div>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-3.jpg" alt="Colorlib Template">
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Green Beans</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span>$120.00</span></p>
+										</div>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-4.jpg" >
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Purple Cabbage</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span>$120.00</span></p>
+										</div>
+									</div>
+								
+								</div>
+							</div>
+						</div>		
+    				</div>
+				</div>
+				<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+					<div class="row">
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-5.jpg" >
+									<span class="status">30%</span>
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Tomatoe</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span class="mr-2 price-dc">$120.00</span><span class="price-sale">$80.00</span></p>
+										</div>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-6.jpg" >
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Brocolli</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span>$120.00</span></p>
+										</div>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-7.jpg" >
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Carrots</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span>$120.00</span></p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-8.jpg" >
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Fruit Juice</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span>$120.00</span></p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-9.jpg" >
+									<span class="status">30%</span>
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Onion</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span class="mr-2 price-dc">$120.00</span><span class="price-sale">$80.00</span></p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-10.jpg" >
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Apple</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span>$120.00</span></p>
+										</div>
+									</div>
+									
+								</div>
+							</div>`
+						</div>
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-11.jpg" >
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Garlic</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span>$120.00</span></p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-12.jpg" >
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Chilli</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span>$120.00</span></p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+
+					<div class="tab-pane fade" id="pills-y" role="tabpanel" aria-labelledby="pills-y-tab">
+						<div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-9.jpg" >
+									<span class="status">30%</span>
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Onion</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span class="mr-2 price-dc">$120.00</span><span class="price-sale">$80.00</span></p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="pills-z" role="tabpanel" aria-labelledby="pills-z-tab"><div class="col-6 col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="#" class="img-prod"><img class="img-fluid" src="images/product-12.jpg" >
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">Chilli</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span>$120.00</span></p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+    				<!-- <ul class="product-category mr-5">
+    					<li><a href="#" class="active">All</a></li>
+    					<li><a href="#">Vegetables</a></li>
+    					<li><a href="#">Fruits</a></li>
+    					<li><a href="#">Juice</a></li>
+    					<li><a href="#">Dried</a></li>
+    				</ul> -->
+    			</div>
+    		</div>
+    		
+    		<div class="row mt-5 mb-5">
+          <div class="col text-center">
+            <div class="block-27">
+              <ul>
+                <li><a href="#">&lt;</a></li>
+                <li class="active"><span>1</span></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&gt;</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    	</div>
+    </section>
+     
+
+     
+    </div>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/jquery/jquery.slim.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="/script/navbar-scroll.js"></script>
+  </body>
+</html>
